@@ -16,6 +16,7 @@ public static class StatisticsHelper
             sum += value;
         }
 
-        return (double)sum / values.Length;
+        double avg = (double)sum / values.Length;
+        return Math.Round(avg, 2);
     }
 }
