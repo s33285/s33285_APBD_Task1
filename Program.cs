@@ -1,7 +1,7 @@
 ﻿class Programc
 {
     static void Main() {
-
+        Console.WriteLine("Program started...");
         Console.WriteLine("Enter numbers(use space to separate): ");
         string input = Console.ReadLine();
 
