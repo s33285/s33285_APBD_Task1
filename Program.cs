@@ -14,7 +14,7 @@
         string[] parts = input.Split(' ');
         int[] num = Array.ConvertAll(parts, int.Parse);
         double avg = StatisticsHelper.CalculateAverage(num);
-        Console.WriteLine("Average: " + avg);
+        Console.WriteLine("Average num: " + avg);
     }
 
 }
